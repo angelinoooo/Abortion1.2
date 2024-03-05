@@ -1,0 +1,202 @@
+/*Settings for Opening.html*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#OpeningPage {
+    background: linear-gradient(rgba(236, 178, 178, 0.8), #b6adad), url(/image/AbortionBg1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo {
+    width: 150px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+
+.Opening-text {
+    text-align: center;
+    color: aliceblue;
+    padding-top: 180px;
+}
+
+.Opening-text h1 {
+    font-size: 130px;
+    color: black;
+}
+
+.Opening-text p {
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+}
+
+.Opening-btn {
+    margin: 80px auto 0;
+}
+
+.Opening-btn a {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: black;
+    border: .5px solid pink;
+    position: relative;
+    z-index: 1;
+}
+
+.Opening-btn a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: pink;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.Opening-btn a:hover span {
+    width: 100%;
+}
+
+
+/*settings for Topic.html */
+
+.Topic {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), #e7e2e2), url(/image/AbortionBg.jpg);
+    background-size: cover;
+}
+
+.logo1 {
+    width: 150px;
+}
+
+.navBar {
+    animation: transitionIn 0.75s;
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar ul li {
+    animation: transitionIn 0.75s;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    animation: transitionIn 0.75s;
+    color: white;
+}
+
+.navBar ul li::after {
+    animation: transitionIn 0.75s;
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: rgb(182, 185, 184);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.navBar ul li:hover:after {
+    width: 100%;
+}
+
+
+/* Settings for the main topic*/
+
+.topic {
+ 
+    color: black;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+.image2 {
+    text-align: center;
+}
+
+.paragraph1 {
+    text-align: center;
+    color: black
+}
+
+.paragraph2 {
+    text-align: center;
+    color: rgb(0, 0, 0)
+}
+
+.quotation {
+  
+    font-family: Impact, Haettenschweiler, sans-serif;
+    color: black
+}
+
+.quotationParagraph {
+    color: rgb(0, 0, 0)
+}
+
+.sources {
+    font-family: Impact, Haettenschweiler, sans-serif;
+    color: rgb(0, 0, 0)
+}
+
+a {
+    color: rgb(53, 109, 109);
+   
+    text-decoration: none;
+}
+
+#bg {
+    background-color: black;
+}
+
+
+/*Setting for new paragraph*/
+
+.overview {
+    font-family: Impact, Haettenschweiler, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.pg{
+    margin: 30px 0px 0px;
+}
+
+.ParagraphBg1 {
+    background-color: rgb(124, 114, 114);
+    margin: 0px 45%;
+    text-align: center;
+    overflow: auto;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
+/*Setting for transition*/
+
+

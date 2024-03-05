@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.842), #00000052), url(image/Background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logoks {
+    /*This is for the logo*/
+    position: absolute;
+    top: 10px;
+    position: fixed;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    padding: 40px;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+.parallax {
+    height: 740px;
+    background-color: black;
+}
+
+
+/*       .AboutImage{
+          padding: 50px;
+          position: absolute;
+          left: 200px;
+          top: 830px;
+         
+        } */
+
+.aboutUs .row {
+    height: 500px;
+    margin: 0 150px;
+    align-items: center;
+    background: #303030;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.AboutContent {
+    position: absolute;
+    top: 750px;
+    left: 590px;
+    text-align: justify;
+    width: 580px;
+    color: white;
+}
+
+.AboutContent span {
+    color: red;
+}
+
+.AboutImage {
+    margin: 0 0px;
+}
+
+.learn-btn a {
+    padding: 5px;
+    align-items: center;
+    text-decoration: none;
+    border: .2px solid white;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    right: 950px;
+    bottom: -640px;
+}
+
+.header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header span {
+    color: red;
+}
+
+.ForFrontTitle {
+    font-size: 100px;
+    position: absolute;
+    font-family: 'ACLONICA';
+    right: 860px;
+    color: white;
+    top: 300px;
+}
+
+.ForFrontTitle span {
+    color: pink;
+}
+
+.ForFrontText {
+    color: white;
+    position: absolute;
+    bottom: 280px;
+    right: 800px;
+    font-size: 11px;
+    line-height: 15px;
+    top: 400px;
+}
+
+.TextToTopic {
+    font-family: 'Big Shoulders Stencil Display';
+    color: white
+}
+
+.topic:hover {
+    transform: translateY(-10px);
+}
+
+.topic1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.877), #0000002f), url(image/topic1.jpg);
+    width: 200px;
+    height: 236px;
+    border-radius: 16px;
+    color: red;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    top: 120px;
+    right: 440px;
+    transition: transform 0.3s;
+}
+
+.topic2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.877), #0000002f), url(image/topic2.jpg);
+    width: 200px;
+    height: 236px;
+    color: red;
+    border-radius: 16px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    right: 220px;
+    top: 120px;
+    transition: transform 0.5s;
+}
+
+.topic3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.877), #0000002f), url(image/topic3.jpg);
+    width: 200px;
+    height: 236px;
+    color: red;
+    border-radius: 16px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    right: 220px;
+    top: 370px;
+    transition: transform 0.5s;
+}
+
+.topic4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.877), #0000002f), url(image/topic4.jpg);
+    width: 200px;
+    height: 236px;
+    color: red;
+    border-radius: 16px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    right: 440px;
+    top: 370px;
+    transition: transform 0.5s;
+}
+
+
+/* buttons for topics */
+
+.ButtonForTopic1 a {
+    position: absolute;
+    top: 110px;
+    padding: 10px;
+    bottom: 30px;
+    right: -20px;
+    align-items: center;
+    text-decoration: none;
+    border: .2px solid white;
+    color: white;
+    position: relative;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.ButtonForTopic1 a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.ButtonForTopic1 a:hover span {
+    width: 100%;
+}
+
+.ButtonForTopic1 a:hover {
+    color: black;
+}
+
+.ButtonForTopic2 a {
+    position: absolute;
+    top: 38px;
+    padding: 10px;
+    bottom: 30px;
+    right: -28px;
+    align-items: center;
+    text-decoration: none;
+    border: .2px solid white;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.ButtonForTopic2 a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 0%;
+    height: 100%;
+    border-radius: 20px;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.ButtonForTopic2 a:hover span {
+    width: 100%;
+}
+
+.ButtonForTopic2 a:hover {
+    color: black;
+}
+
+.ButtonForTopic3 a {
+    position: absolute;
+    top: 100px;
+    padding: 10px;
+    bottom: 30px;
+    right: -28px;
+    align-items: center;
+    text-decoration: none;
+    border: .2px solid white;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.ButtonForTopic3 a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 0%;
+    height: 100%;
+    border-radius: 20px;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.ButtonForTopic3 a:hover span {
+    width: 100%;
+}
+
+.ButtonForTopic3 a:hover {
+    color: black;
+}
+
+.ButtonForTopic4 a {
+    position: absolute;
+    top: 100px;
+    padding: 10px;
+    bottom: 30px;
+    right: -20px;
+    align-items: center;
+    text-decoration: none;
+    border: .2px solid white;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.ButtonForTopic4 a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.ButtonForTopic4 a:hover span {
+    width: 100%;
+}
+
+.ButtonForTopic4 a:hover {
+    color: black;
+}
+
+
+/* 
+setting for navigation bar */
+
+.navBar {
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+}
+
+.navBar ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px 0px 0px 30px;
+    position: relative;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navBar ul li::after {
+    background: rgb(182, 185, 184);
+    position: absolute;
+    left: 0;
+    top: 25px;
+    transition: 0.5s;
+    content: '';
+    height: 3px;
+    width: 0%;
+}
+
+.navBar ul li:hover:after {
+    width: 100%;
+}
+
+
+/* Setting for Page 1 */
+
+
+/* ContentForStudents */
+
+
+/* 
+        .anim{
+            animation: moveup 1s linear forwards;
+        }
+        @keyframes moveup{
+          
+            100%{
+                transform: translate(30px);
+                opacity: 1;
+            }
+        }  */
